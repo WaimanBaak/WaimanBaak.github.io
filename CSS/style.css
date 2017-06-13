@@ -1,0 +1,50 @@
+/* 样式初始化 */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+form,
+dl,
+dt,
+dd,
+i,
+s,
+textarea,
+input {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+input {
+    border: 0 none;
+}
+img {
+    border: 0 none;
+    vertical-align: middle;
+}
+body {
+    font: 14px/1.5 Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei",SimSun,Heiti,sans-serif;
+    color: #333;
+}
+
+/* 公用样式 */
+.w {
+    width: 1240px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    line-height: 0;
+    font-size: 0;
+    visibility: hidden;
+}
